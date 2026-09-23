@@ -168,8 +168,5 @@ The **OmniEchoBench** data is released for **non-commercial research use** under
 
 <div align="center">
 
-**[📄 Paper](https://arxiv.org/html/2609.23407v1)** · **[🎧 QA Data](data/OmniEchoBench-QA/)** · **[🧭 Nav Data](data/OmniEchoBench-NAV/)** · **Code — coming soon**
-
-*Toward embodied agents that reason about **what** they perceive and **where** it originates.*
 
 </div>
