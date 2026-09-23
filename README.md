@@ -4,7 +4,7 @@
 
 ### Audio-Visual Spatial Understanding for Omni-Modal Embodied Agents
 
-*Can your embodied agent hear **where** things are — and act on it?*
+*Can your embodied agent hear **where** sound come — and act on it?*
 
 <p>
   <a href="https://arxiv.org/html/2609.23407v1">
