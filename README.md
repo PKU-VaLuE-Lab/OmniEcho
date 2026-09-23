@@ -31,7 +31,6 @@
 
 - **`2026-09`** 🎉 Our paper **[OmniEcho: Audio-Visual Spatial Understanding for Omni-Modal Embodied Agents](https://arxiv.org/html/2609.23407v1)** is released on arXiv!
 - **`2026-09`** 🌟 **OmniEchoBench** is cited by the **[Qwen3.8-Omni Technical Report](https://arxiv.org/pdf/2609.25611)** as a benchmark for spatial audio understanding.
-- **`2026-09`** 📦 The **OmniEchoBench** benchmark data (QA + Navigation) is now open-sourced in this repository. Inference & evaluation code — *coming soon*.
 
 ---
 
