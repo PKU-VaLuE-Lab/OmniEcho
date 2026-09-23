@@ -87,7 +87,7 @@ Each source is annotated with its device, room, semantic description, and a natu
 
 | Model | Base | Setting | Overall |
 |:--|:--|:--|--:|
-| Qwen2.5-Omni-7B | Qwen2.5-Omni-7B | A-foa + V | 12.6 |
+| Qwen2.5-Omni-7B | Qwen2.5-Omni-7B | A-single + V | 12.6 |
 | SO-7B | Qwen2.5-Omni-7B | A-foa + V | 11.4 |
 | Qwen3-Omni-30B-A3B | Qwen3-Omni-30B-A3B | A-single + V | 18.5 |
 | **OmniEcho (Ours)** | Qwen3-Omni-30B-A3B | **A-foa + V** | **28.5** |
