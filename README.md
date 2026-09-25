@@ -153,7 +153,15 @@ Inference and evaluation code for **both** tracks is **coming soon**:
 If you find **OmniEcho** or **OmniEchoBench** useful, please cite:
 
 ```bibtex
-
+@misc{liu2026omniechoaudiovisualspatialunderstanding,
+      title={OmniEcho: Audio-Visual Spatial Understanding for Omni-Modal Embodied Agents}, 
+      author={Ruixun Liu and Yuxuan Wang and Jiacheng Xie and Yuhuan You and Donghua Cai and Junming Lin and Xiong-Hui Chen and Zhifang Guo and Yunfei Chu and Qize Yang and Xize Cheng and Jin Xu and Yiwu Zhong},
+      year={2026},
+      eprint={2609.23407},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2609.23407}, 
+}
 ```
 
 ---
