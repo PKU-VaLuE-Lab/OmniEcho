@@ -112,6 +112,7 @@ See the [paper](https://arxiv.org/html/2609.23407v1) for the full tables, ablati
 |:--|:--|:--|
 | 🎧 **OmniEchoBench-QA** data | 🕓 **Coming soon** | — |
 | 🧭 **OmniEchoBench-Nav** data | 🕓 **Coming soon** | — |
+| 🛠️ Training Data Generation and Rendering Code | 🕓 **Coming soon** | — |
 | 🧪 QA inference & evaluation code | 🕓 **Coming soon** | — |
 | 🤖 Navigation inference & evaluation code | 🕓 **Coming soon** | — |
 
