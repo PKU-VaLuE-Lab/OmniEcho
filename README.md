@@ -16,9 +16,6 @@
   <a href="#code-models">
     <img alt="Code" src="https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&logo=github&logoColor=white">
   </a>
-  <a href="#release-status">
-    <img alt="Model checkpoints" src="https://img.shields.io/badge/Checkpoints-Not%20Bundled-f59e0b.svg?style=for-the-badge">
-  </a>
   <a href="#license">
     <img alt="Data license" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-2ea44f.svg?style=for-the-badge">
   </a>
@@ -174,7 +171,6 @@ distributed separately or excluded from this source package.
 | 🤖 Navigation inference and evaluation code | ✅ Included | [Model service](evaluate/nav_server.py) · [InternNav overlay](nav/README.md) |
 | 🌐 Project website and leaderboard | ✅ Included | [Website](docs/index.html) · [Leaderboard](docs/leaderboard/) · [Setup](WEBSITE.md) |
 | 📥 Benchmark videos, FOA audio, and scene assets | Hosted separately; public download links not provided in this source package | [Data layout and verification](docs/benchmark_data.md) |
-| 🧠 OmniEcho model checkpoints | External dependency; weights and download links not bundled | [Checkpoint requirements](#qa-inference-and-scoring) |
 
 Website images and fonts are bundled under `docs/assets/`; the demo video is
 streamed from its hosted URL. Keep external assets and generated outputs outside
@@ -260,11 +256,6 @@ Inference and evaluation code for **both** tracks is included:
 - **OmniEchoBench-Nav** — a Habitat agent that navigates to a sound source from
   per-step FOA, driven by an OmniEcho `/infer` server through InternNav.
 
-The trained OmniEcho checkpoint is required to run model inference and must be
-prepared separately; this package does not include model weights or a download
-link. See the requirements and usage below.
-
-⭐ **Star / watch this repo** for benchmark-media and model-checkpoint release updates.
 
 ### Code layout
 
@@ -307,9 +298,6 @@ Read [environments/README.md](environments/README.md) before installation. There
    an image-capable annotation API. Speech/sound synthesis uses a separate GPU
    environment and external auxiliary models.
 
-Third-party package names and checkpoint architecture identifiers remain intact
-where required by their public interfaces. They are dependencies, not alternative
-project or benchmark names. Never rename architecture metadata inside a checkpoint.
 
 <a id="api-configuration"></a>
 
