@@ -131,10 +131,6 @@ for the complete media inventory and verification procedure.
 | Qwen2.5-Omni-7B | 24.9 | 8.0 | 5.4 | 14.0 | 20.0 | 12.6 |
 | SO-7B | 21.4 | 5.2 | 0.0 | 17.1 | 22.8 | 11.4 |
 
-The leaderboard combines paper results with additional evaluations provided by
-the project maintainer. Overall scores are reproduced as reported, rather than
-recomputed as the unweighted mean of the five task columns. See the
-[leaderboard notes](docs/assets/leaderboard-data.json) for provenance.
 
 **Sound-guided navigation** on OmniEchoBench-Nav (Val-Unseen) — audio guidance is harder than text, yet OmniEcho is competitive with text-guided VLN:
 
