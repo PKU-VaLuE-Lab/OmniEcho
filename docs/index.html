@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OmniEcho — Spatial Audio Understanding</title>
+  <meta name="description" content="Hear beyond the visible. OmniEcho brings spatial audio understanding to embodied agents with first-order ambisonics, vision, and language.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="OmniEcho — Hear beyond the visible."><meta property="og:description" content="Spatial audio understanding for embodied agents. Explore the research, demo, and OmniEchoBench leaderboard."><meta property="og:type" content="website">
+  <meta property="og:image" content="https://pku-value-lab.github.io/OmniEcho/assets/social-card.png">
+  <link rel="canonical" href="https://pku-value-lab.github.io/OmniEcho/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/fonts.css"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/light.css">
+  <script src="assets/cosmic.js" defer></script><script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header"><div class="nav-wrap">
+    <a class="brand" href="./" aria-label="OmniEcho home"><span class="brand-mark" aria-hidden="true">◎</span> OmniEcho<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a class="nav-active" href="./" aria-current="page">Overview</a><a href="#demo">Demo</a><a href="#benchmark">Benchmark</a><a href="leaderboard/">Leaderboard <span aria-hidden="true">↗</span></a></nav>
+    <a class="nav-github" href="https://github.com/PKU-VaLuE-Lab/OmniEcho" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+  </div></header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <a class="research-pill" href="https://arxiv.org/abs/2609.23407" target="_blank" rel="noopener noreferrer"><span class="status-dot"></span> SPATIAL AUDIO · EMBODIED INTELLIGENCE <span aria-hidden="true">↗</span></a>
+        <h1 id="hero-title">Omni<span class="gradient-word">Echo</span><span class="title-period">.</span></h1>
+        <p class="hero-statement">Hear beyond<br>the <span>visible.</span></p>
+        <p class="hero-description">Audio-visual spatial understanding for omni-modal embodied agents. A new sense of space, through sound and sight.</p>
+        <div class="hero-actions"><a class="button primary" href="https://arxiv.org/abs/2609.23407" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a><a class="button secondary" href="#demo"><span class="play-small" aria-hidden="true">▷</span> Watch demo</a></div>
+        <div class="hero-bottom"><span class="mini-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>Listen. Localize. Understand.</span></div>
+      </div>
+      <div class="spatial-scene" role="img" aria-label="An artistic visualization of a spatial sound field, with orbiting sound sources around a listening agent">
+        <div class="scene-top"><span>THE GEOMETRY OF SOUND</span><span class="scene-signal"><i></i> FOA · 4 CHANNELS</span></div>
+        <canvas id="spatial-orb" aria-hidden="true"></canvas>
+        <div class="scene-label label-source"><span class="label-dot"></span><small>SOUND SOURCE</small><strong>Beyond the field of view</strong></div>
+        <div class="scene-label label-listener"><small>EMBODIED AGENT</small><strong>A sense of direction.</strong></div>
+        <div class="scene-bottom"><span><i class="legend-dot teal"></i> Spatial audio</span><span><i class="legend-dot lilac"></i> Vision</span><span class="scene-coordinate">x · y · z</span></div>
+      </div>
+      <a class="scroll-cue" href="#research"><span aria-hidden="true">↓</span> EXPLORE THE RESEARCH</a>
+      <button class="motion-control" type="button" aria-pressed="false" aria-label="Pause decorative animation" hidden><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause motion</span></button>
+    </section>
+
+    <section id="research" class="research-meta container" aria-label="Research team">
+      <p class="authors">Ruixun Liu<sup>1,2</sup><span>Yuxuan Wang<sup>3</sup></span><span>Jiacheng Xie<sup>1</sup></span><span>Yuhuan You<sup>1</sup></span><span>Donghua Cai<sup>4</sup></span><span>Junming Lin<sup>4</sup></span><span>Xiong-Hui Chen<sup>3</sup></span><span>Zhifang Guo<sup>3</sup></span><span>Yunfei Chu<sup>3</sup></span><span>Qize Yang<sup>3</sup></span><span>Xize Cheng<sup>3</sup></span><span>Jin Xu<sup>3</sup></span><span>Yiwu Zhong<sup>1,2</sup></span></p>
+      <div class="affiliations"><span><sup>1,2</sup> Peking University</span><span><sup>3</sup> Alibaba Token Hub</span><span><sup>4</sup> Tsinghua University</span></div>
+      <p class="affiliation-detail">¹ School of Intelligence Science and Technology &nbsp; ² State Key Laboratory of General Artificial Intelligence</p>
+    </section>
+
+    <section class="stats-strip container" aria-label="Benchmark at a glance"><div><strong>197</strong><span>Real-world AV scenes</span></div><div><strong>2,972</strong><span>Spatial QA pairs</span></div><div><strong>900</strong><span>Navigation samples</span></div><div><strong>30</strong><span>Navigation environments</span></div></section>
+
+    <section id="demo" class="section container demo-section">
+      <div class="section-heading"><div><p class="eyebrow"><span>01</span> IN THE REAL WORLD</p><h2>Seeing is only<br>part of the story.</h2></div><p>Some things happen outside the frame.<br>Spatial audio brings them into the picture.</p></div>
+      <div class="video-shell"><div class="video-topbar"><span><i class="legend-dot teal"></i> OmniEcho / Spatial understanding demo</span><span>DEMO <span class="divider">/</span> AUDIO + VISION</span></div>
+        <div class="video-frame"><video id="demo-video" controls playsinline preload="none" poster="assets/media/demo-poster.jpg" aria-label="OmniEcho spatial audio-visual demonstration"><source src="https://cdn-uploads.huggingface.co/production/uploads/66cd4cb53f233bf2c7953c12/P395iT-mTRonbT96yxafl.mp4" type="video/mp4">Your browser does not support this video. <a href="https://cdn-uploads.huggingface.co/production/uploads/66cd4cb53f233bf2c7953c12/P395iT-mTRonbT96yxafl.mp4" target="_blank" rel="noopener noreferrer">Open the demo</a>.</video><button class="video-play" id="video-play" aria-label="Play the OmniEcho demo"><span aria-hidden="true">▶</span><span>Experience OmniEcho</span></button></div>
+      </div>
+      <div class="video-caption"><span>↗&nbsp; Turn on sound for the full experience.</span><a href="https://cdn-uploads.huggingface.co/production/uploads/66cd4cb53f233bf2c7953c12/P395iT-mTRonbT96yxafl.mp4" target="_blank" rel="noopener noreferrer">Open video ↗</a></div>
+    </section>
+
+    <section class="section container introduction"><div><p class="eyebrow"><span>02</span> THE IDEA</p><h2>A world of sound.<br>A sense of <em>space.</em></h2></div><div class="intro-copy"><p class="large-copy">Sound tells us more than <span>what</span> happened.<br>It tells us <span>where</span>.</p><p>Humans combine what they hear with what they see to make sense of their surroundings. OmniEcho brings this ability to embodied agents: answering spatial questions, locating off-screen sound sources, and navigating toward sounding targets.</p><p>Our model pairs a dedicated first-order ambisonics (FOA) spatial encoder with a pretrained semantic audio pathway. Together with vision and language, it connects the meaning of sound to the geometry of the world.</p><a class="text-link" href="https://arxiv.org/html/2609.23407v1" target="_blank" rel="noopener noreferrer">Explore the method <span aria-hidden="true">↗</span></a></div></section>
+
+    <section class="method-strip container" aria-label="OmniEcho approach"><div class="method-step"><span class="method-number">01 / PERCEIVE</span><div class="method-icon wave-icon" aria-hidden="true">▂▅▃▇▂▆▃</div><h3>Preserve spatial cues</h3><p>Four-channel FOA captures sound direction beyond a single audio channel.</p></div><div class="method-step"><span class="method-number">02 / CONNECT</span><div class="method-icon orbit-icon" aria-hidden="true">◎</div><h3>Align sound and sight</h3><p>Spatial and semantic audio pathways meet visual observations and language.</p></div><div class="method-step"><span class="method-number">03 / ACT</span><div class="method-icon route-icon" aria-hidden="true">⌁</div><h3>Reason, then navigate</h3><p>Understand where a source is, how it moves, and how to reach it.</p></div></section>
+
+    <section id="benchmark" class="section container"><div class="section-heading"><div><p class="eyebrow"><span>03</span> OMNIECHOBENCH</p><h2>Grounded in reality.<br>Built for spatial intelligence.</h2></div><a class="text-link" href="leaderboard/">Explore the leaderboard <span aria-hidden="true">↗</span></a></div>
+      <div class="benchmark-grid"><article class="benchmark-card qa-card"><div class="card-top"><span class="track-label">PERCEPTION TRACK</span><span class="track-code">QA / 01</span></div><h3>Understand the scene.</h3><p>Human-verified questions from real performances, with sound sources that move in and out of view.</p><div class="task-tags"><span>Camera Rotation</span><span>Source Direction</span><span>3D Localization</span><span>Source Motion</span><span>Cognitive Map</span></div><div class="card-stat"><strong>2,972</strong><span>questions<br>across five task families</span><div class="mini-radar" aria-hidden="true"><i></i></div></div></article>
+      <article class="benchmark-card nav-card"><div class="card-top"><span class="track-label">NAVIGATION TRACK</span><span class="track-code">NAV / 02</span></div><h3>Follow the sound.</h3><p>Closed-loop sound-guided navigation through real-scanned indoor environments, from a single room to connected spaces.</p><div class="task-tags"><span>FOA Audio</span><span>Language Guidance</span><span>Unseen Environments</span></div><div class="card-stat"><strong>900</strong><span>navigation samples<br>in 30 environments</span><div class="mini-route" aria-hidden="true">⌁</div></div></article></div>
+    </section>
+
+    <section class="section container results-section"><div class="results-intro"><p class="eyebrow"><span>04</span> A SPATIAL ADVANTAGE</p><h2>Beyond recognizing sound.<br>Understanding its place.</h2><p>OmniEcho improves spatial reasoning over its Qwen3-Omni base model. Explore all reported Audio & Vision results in one place.</p><a class="button secondary" href="leaderboard/">View full leaderboard <span aria-hidden="true">↗</span></a></div><div class="result-metrics"><div class="result-row"><div><span>Audio & Vision · Overall</span><strong>28.5<small>%</small></strong></div><p><b>+10.0</b> percentage points<br>over Qwen3-Omni-30B-A3B</p></div><div class="result-row"><div><span>Cognitive Map</span><strong>47.5<small>%</small></strong></div><p><b>+25.2</b> percentage points<br>over Qwen3-Omni-30B-A3B</p></div><p class="metric-footnote">OmniEchoBench-QA · Audio & Vision setting · Paper results</p></div></section>
+
+    <section class="section container resources-section"><div class="section-heading"><div><p class="eyebrow"><span>05</span> EXPLORE OMNIECHO</p><h2>Take the next step.</h2></div></div><div class="resource-grid"><a class="resource-card" href="https://arxiv.org/abs/2609.23407" target="_blank" rel="noopener noreferrer"><span class="resource-icon">↗</span><h3>Read the paper</h3><p>Method, benchmark, experiments,<br>and a closer look at spatial audio.</p><span class="resource-footer">arXiv:2609.23407 <span>↗</span></span></a><a class="resource-card" href="https://github.com/PKU-VaLuE-Lab/OmniEcho" target="_blank" rel="noopener noreferrer"><span class="resource-icon">⌘</span><h3>Follow the project</h3><p>Release updates, documentation,<br>and the project repository.</p><span class="resource-footer">GitHub <span>↗</span></span></a><a class="resource-card" href="leaderboard/"><span class="resource-icon">↗</span><h3>Compare the models</h3><p>Five spatial task families.<br>One Audio & Vision leaderboard.</p><span class="resource-footer">OmniEchoBench-QA <span>↗</span></span></a></div></section>
+
+    <section id="citation" class="container citation-section"><div><p class="eyebrow">BUILT ON SHARED DISCOVERY</p><h2>Cite our work.</h2><p>If OmniEcho supports your research,<br>please consider citing our paper.</p></div><div class="citation-box"><div><span>BIBTEX</span><button id="copy-citation" type="button">Copy citation <span aria-hidden="true">⧉</span></button></div><pre id="citation-text">@misc{liu2026omniechoaudiovisualspatialunderstanding,
+  title={OmniEcho: Audio-Visual Spatial Understanding
+         for Omni-Modal Embodied Agents},
+  author={Ruixun Liu and Yuxuan Wang and Jiacheng Xie and
+          Yuhuan You and Donghua Cai and Junming Lin and
+          Xiong-Hui Chen and Zhifang Guo and Yunfei Chu and
+          Qize Yang and Xize Cheng and Jin Xu and Yiwu Zhong},
+  year={2026},
+  eprint={2609.23407},
+  archivePrefix={arXiv},
+  primaryClass={cs.SD},
+  url={https://arxiv.org/abs/2609.23407}
+}</pre><span id="copy-status" class="sr-only" role="status"></span></div></section>
+  </main>
+  <footer class="site-footer container"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">◎</span> OmniEcho<span class="brand-dot">.</span></a><span>Spatial audio. Embodied intelligence.</span><a href="https://github.com/PKU-VaLuE-Lab" target="_blank" rel="noopener noreferrer">PKU VaLuE Lab <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

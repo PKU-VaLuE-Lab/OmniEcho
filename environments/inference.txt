@@ -1,0 +1,10 @@
+torch==2.9.1
+transformers==5.2.0
+accelerate>=1.4,<2
+qwen-omni-utils==0.0.9
+safetensors>=0.6,<1
+numpy>=1.26,<3
+soundfile>=0.13,<1
+av>=14,<18
+librosa==0.11.0
+openai>=1.30,<3

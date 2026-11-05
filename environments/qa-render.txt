@@ -1,0 +1,15 @@
+numpy==1.26.4
+scipy>=1.13,<2
+soundfile>=0.13,<1
+spaudiopy==0.2.0
+opencv-python-headless==4.11.0.86
+matplotlib>=3.8,<4
+httpx>=0.27,<1
+tqdm>=4.66,<5
+pyloudnorm>=0.1.1,<1
+noisereduce>=3,<4
+decord>=0.6,<1
+ultralytics==8.4.78
+clip-anytorch>=2.6,<3
+packaging>=24
+pyroomacoustics>=0.8,<1

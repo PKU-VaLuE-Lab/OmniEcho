@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+scipy>=1.13,<2
+pyarrow>=15
+soundfile>=0.13,<1
+tqdm>=4.66,<5
+openai>=1.30,<3
+pandas>=2,<3

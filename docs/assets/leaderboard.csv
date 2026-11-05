@@ -1,0 +1,11 @@
+rank,model,baseModel,source,cameraRotation,sourceDirection,localization,sourceMotion,cognitiveMap,overall
+1,Qwen3.8-omni-flash,,additional,74.1,47.9,28.6,37.4,39.5,43.9
+2,Gemini3.8-flash,,additional,53.7,34.1,22.1,31.3,26.0,32.0
+3,Gemini3.7-flash,,additional,45.3,32.8,24.4,33.4,26.2,31.4
+4,muse-spark-1.2,,additional,55.0,34.2,19.6,29.6,25.2,31.3
+5,OmniEcho,Qwen3-Omni-30B-A3B,paper,41.7,22.6,14.2,24.7,47.5,28.5
+6,doubao-seed-2-0-lite-260428,,additional,34.3,30.6,22.1,29.6,25.3,28.3
+7,Qwen3.5-Omni-Plus,,additional,52.4,16.1,19.6,22.2,25.2,23.3
+8,Qwen3-Omni-30B-A3B,Qwen3-Omni-30B-A3B,paper,32.7,16.3,7.7,20.9,22.3,18.5
+9,Qwen2.5-Omni-7B,Qwen2.5-Omni-7B,paper,24.9,8.0,5.4,14.0,20.0,12.6
+10,SO-7B,Qwen2.5-Omni-7B,paper,21.4,5.2,0.0,17.1,22.8,11.4

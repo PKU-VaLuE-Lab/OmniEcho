@@ -1,0 +1,5 @@
+numpy==1.26.4
+scipy==1.13.1
+opencv-python==4.11.0.86
+requests>=2.31,<3
+dtw==1.4.0
