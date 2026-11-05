@@ -297,20 +297,6 @@ Read [environments/README.md](environments/README.md) before installation. There
 
 <a id="api-configuration"></a>
 
-## API configuration
-
-All remote annotation calls use environment-provided credentials and a generic
-OpenAI-compatible chat-completions contract. `https://api.example.com/v1` and
-`YOUR_API_KEY` are **nonfunctional placeholders**, not a hosted service.
-Set `OPENAI_BASE_URL`, `OPENAI_API_KEY`, and `OPENAI_MODEL` to your own deployment.
-The displayed example model is `OmniEcho`; an auxiliary annotation deployment
-may require a different model identifier.
-
-Video generation has a separate, documented HTTP adapter contract; a chat API alone
-cannot generate the raw video/audio samples. See [pipelines/qa/README.md](pipelines/qa/README.md).
-Do not commit your populated environment file or credentials.
-
-<a id="qa-inference-and-scoring"></a>
 
 ## QA inference and scoring
 
