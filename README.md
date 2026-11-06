@@ -10,14 +10,14 @@
   <a href="https://arxiv.org/html/2609.23407v1">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2609.23407-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white">
   </a>
-  <a href="#benchmark">
-    <img alt="Benchmark" src="[https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&logo=github&logoColor=white](https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench)">
+  <a href="https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench">
+    <img alt="Hugging Face · OmniEchoBench" src="https://img.shields.io/badge/Hugging%20Face-OmniEchoBench-FFD21E.svg?style=for-the-badge&amp;logo=huggingface&amp;logoColor=FFD21E">
   </a>
   <a href="#code-models">
     <img alt="Code" src="https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&logo=github&logoColor=white">
   </a>
-  <a href="#license">
-    <img alt="Data license" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-2ea44f.svg?style=for-the-badge">
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en">
+    <img alt="Data license: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-2ea44f.svg?style=for-the-badge">
   </a>
 </p>
 
@@ -446,6 +446,6 @@ OmniEcho is built on top of [Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni), 
 ## 📄 License
 
 The **OmniEchoBench** data is released for **non-commercial research use** under
-[**CC BY-NC-SA 4.0**]([https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)).
+[**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 Code and model license terms will be provided separately; no code/model license
 file is bundled in this source package.
