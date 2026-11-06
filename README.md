@@ -11,7 +11,7 @@
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2609.23407-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white">
   </a>
   <a href="#benchmark">
-    <img alt="Benchmark" src="https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench">
+    <img alt="Benchmark" src="[https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench](https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench)">
   </a>
   <a href="#code-models">
     <img alt="Code" src="https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&logo=github&logoColor=white">
