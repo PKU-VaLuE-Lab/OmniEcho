@@ -173,7 +173,7 @@ distributed separately or excluded from this source package.
 | 🧪 QA inference and evaluation code | ✅ Included | [Inference](evaluate/infer_qa.py) · [Scoring](qa_eval/eval_qa_metrics.py) |
 | 🤖 Navigation inference and evaluation code | ✅ Included | [Model service](evaluate/nav_server.py) · [InternNav overlay](nav/README.md) |
 | 🌐 Project website and leaderboard | ✅ Included | [Website](docs/index.html) · [Leaderboard](docs/leaderboard/) · [Setup](WEBSITE.md) |
-| 📥 Benchmark videos, FOA audio, and scene assets | comming soon | [Data layout and verification](docs/benchmark_data.md) |
+| 📥 Benchmark videos, FOA audio, and scene assets | ✅ Included | [Data layout and verification](docs/benchmark_data.md) |
 
 Website images and fonts are bundled under `docs/assets/`; the demo video is
 streamed from its hosted URL. Keep external assets and generated outputs outside
