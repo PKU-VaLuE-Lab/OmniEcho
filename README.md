@@ -11,7 +11,7 @@
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2609.23407-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white">
   </a>
   <a href="#benchmark">
-    <img alt="Benchmark" src="https://img.shields.io/badge/OmniEchoBench-QA%20%2B%20Nav-4c8bf5.svg?style=for-the-badge&logo=databricks&logoColor=white">
+    <img alt="Benchmark" src="https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench">
   </a>
   <a href="#code-models">
     <img alt="Code" src="https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&logo=github&logoColor=white">
@@ -23,7 +23,6 @@
 
 **[Project homepage](https://pku-value-lab.github.io/OmniEcho/)** ·
 **[Leaderboard](https://pku-value-lab.github.io/OmniEcho/leaderboard/)** ·
-**[Website setup and maintenance](WEBSITE.md)**
 
 **First-order ambisonics (FOA) spatial audio + vision + language, in real-world embodied settings** — a unified benchmark for spatial audio-visual perception **and** sound-guided navigation, plus a spatially aware omni-modal model.
 
