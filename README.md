@@ -453,7 +453,6 @@ OmniEcho is built on top of [Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni), 
 
 ## 📄 License
 
-The **OmniEchoBench** data is released for **non-commercial research use** under
+The **OmniEcho** data and code is released for **non-commercial research use** under
 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
-Code and model license terms will be provided separately; no code/model license
-file is bundled in this source package.
+
