@@ -42,7 +42,7 @@
 
 <p>
   <a href="https://arxiv.org/abs/2609.23407">
-    <img src="docs/assets/media/omniecho-overview.png" alt="OmniEcho paper overview: spatial audio and vision enable embodied perception and sound-guided navigation; OmniEchoBench covers spatial perception and navigation tasks." width="100%">
+    <img src="docs/assets/media/omniecho-overview-v3.png" alt="OmniEcho paper overview: spatial audio and vision enable embodied perception and sound-guided navigation; OmniEchoBench covers spatial perception and navigation tasks." width="100%">
   </a>
 </p>
 
