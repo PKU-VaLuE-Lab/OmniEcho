@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.pku.edu.cn/"><img src="docs/assets/pku-logo.png" alt="Peking University" width="210" height="77"></a>
   &nbsp;&nbsp;
-  <a href="https://qwen.ai/"><img src="docs/assets/qwen-logo.png" alt="Qwen" width="210" height="77"></a>
+  <a href="https://qwen.ai/"><img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/logo_qwen.jpg" alt="Qwen official logo" width="210"></a>
   &nbsp;&nbsp;
   <a href="https://www.tsinghua.edu.cn/"><img src="docs/assets/tsinghua-logo.png" alt="Tsinghua University" width="210" height="77"></a>
 </p>
