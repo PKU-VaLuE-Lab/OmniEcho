@@ -5,7 +5,7 @@
 ### Audio-Visual Spatial Understanding for Omni-Modal Embodied Agents
 
 <p align="center">
-  <a href="https://www.pku.edu.cn/"><img src="docs/assets/pku-logo.png" alt="Peking University" width="210" height="77" align="middle"></a>
+  <a href="https://www.pku.edu.cn/"><img src="docs/assets/pku-logo.png" alt="Peking University" width="240" height="88" align="middle"></a>
   &nbsp;&nbsp;
   <a href="https://qwen.ai/"><img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/logo_qwen.jpg" alt="Qwen official logo" width="210" align="middle"></a>
   &nbsp;&nbsp;
