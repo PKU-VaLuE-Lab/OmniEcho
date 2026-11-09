@@ -12,40 +12,53 @@
   <a href="https://www.tsinghua.edu.cn/"><img src="docs/assets/tsinghua-logo.png" alt="Tsinghua University" width="210" height="77"></a>
 </p>
 
-*Can your embodied agent understand **where** a sound comes from — and navigate to it?*
+**Hear beyond the visible.**
+
+*Spatial audio + vision for embodied agents to reason about their surroundings and navigate toward sound.*
 
 <p>
-  <a href="https://arxiv.org/html/2609.23407v1">
-    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2609.23407-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white">
+  <a href="https://pku-value-lab.github.io/OmniEcho/">
+    <img alt="Project page" src="https://img.shields.io/badge/Project%20Page-Online-8A2BE2.svg?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   </a>
-  <a href="https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench">
-    <img alt="Hugging Face · OmniEchoBench" src="https://img.shields.io/badge/Hugging%20Face-OmniEchoBench-FFD21E.svg?style=for-the-badge&amp;logo=huggingface&amp;logoColor=FFD21E">
+  <a href="https://qwen.ai/blog?id=qwen3.8-omni-flash">
+    <img alt="Qwen3.8-Omni Blog" src="https://img.shields.io/badge/Qwen3.8--Omni-Blog-615CED.svg?style=for-the-badge&amp;logo=qwen&amp;logoColor=white">
   </a>
-  <a href="#code-models">
-    <img alt="Code" src="https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en">
-    <img alt="Data license: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-2ea44f.svg?style=for-the-badge">
+  <a href="https://arxiv.org/abs/2609.23407">
+    <img alt="arXiv: 2609.23407" src="https://img.shields.io/badge/arXiv-2609.23407-b31b1b.svg?style=for-the-badge&amp;logo=arxiv&amp;logoColor=white">
   </a>
 </p>
 
-**[Project homepage](https://pku-value-lab.github.io/OmniEcho/)** ·
-**[Leaderboard](https://pku-value-lab.github.io/OmniEcho/leaderboard/)** ·
+<p>
+  <a href="https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench">
+    <img alt="OmniEchoBench on Hugging Face" src="https://img.shields.io/badge/OmniEchoBench-Hugging%20Face-FFD21E.svg?style=for-the-badge&amp;logo=huggingface&amp;logoColor=FFD21E">
+  </a>
+  <a href="https://pku-value-lab.github.io/OmniEcho/leaderboard/">
+    <img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-Results-008CBA.svg?style=for-the-badge">
+  </a>
+  <a href="#code-models">
+    <img alt="Code available" src="https://img.shields.io/badge/Code-Available-2ea44f.svg?style=for-the-badge&amp;logo=github&amp;logoColor=white">
+  </a>
+</p>
 
-**First-order ambisonics (FOA) spatial audio + vision + language, in real-world embodied settings** — a unified benchmark for spatial audio-visual perception **and** sound-guided navigation, plus a spatially aware omni-modal model.
+<p>
+  <a href="https://arxiv.org/abs/2609.23407">
+    <img src="docs/assets/media/omniecho-overview.png" alt="OmniEcho paper overview: spatial audio and vision enable embodied perception and sound-guided navigation; OmniEchoBench covers spatial perception and navigation tasks." width="100%">
+  </a>
+</p>
+
+*OmniEcho brings spatial hearing to omni-modal embodied agents. OmniEchoBench evaluates both spatial audio-visual perception and sound-guided navigation in real-world environments.*
+
+**197 real-world audio-visual videos · 2,972 QA pairs · 900 navigation samples · 30 indoor environments**
 
 </div>
-
-The homepage links target the planned GitHub Pages deployment at
-`PKU-VaLuE-Lab/OmniEcho`; see [WEBSITE.md](WEBSITE.md) for deployment and local preview.
 
 ---
 
 ## Contents
 
-- [Overview](#overview) · [Benchmark](#benchmark) · [Headline results](#headline-results)
+- [News](#news) · [Overview](#overview) · [Benchmark](#benchmark) · [Headline results](#headline-results)
 - [Release status and data](#release-status) · [Code and models](#code-models)
-- [Environments](#environments) · [API configuration](#api-configuration)
+- [Environments](#environments)
 - [QA inference and scoring](#qa-inference-and-scoring) · [Navigation evaluation](#navigation-evaluation)
 - [Training-data construction](#training-data-construction) · [Validation](#validation)
 - [Detailed evaluation guide](EVALUATION.md)
@@ -58,7 +71,7 @@ The homepage links target the planned GitHub Pages deployment at
 ## 📰 News
 
 - **`2026-09`** 🎉 Our paper **[OmniEcho: Audio-Visual Spatial Understanding for Omni-Modal Embodied Agents](https://arxiv.org/html/2609.23407v1)** is released on arXiv!
-- **`2026-09`** 🌟 **OmniEchoBench** is cited by the **[Qwen3.8-Omni Technical Report](https://arxiv.org/pdf/2609.25611)** as a benchmark for spatial audio understanding.
+- **`2026-09`** 🌟 **OmniEchoBench** is cited by the **[Qwen3.8-Omni Technical Report](https://arxiv.org/pdf/2609.25611)** as a benchmark for spatial audio understanding. Read the **[official Qwen3.8-Omni blog](https://qwen.ai/blog?id=qwen3.8-omni-flash)** for the model release.
 
 ---
 
@@ -74,7 +87,7 @@ This project contributes:
 - 🛠️ **A controllable spatial-audio rendering pipeline** that keeps geometry consistent across sound sources, visual observations, and agent trajectories — enabling scalable training supervision.
 - 🤖 **OmniEcho** — a spatially aware omni-modal model built on Qwen3-Omni, introducing a dedicated **FOA spatial encoder** alongside the pretrained semantic audio pathway.
 
-> **TL;DR** — OmniEcho combines a dedicated FOA spatial encoder with vision and language for spatial QA and sound-guided navigation. It achieves **28.5%** overall Audio & Vision QA accuracy; fine-grained localization and distance estimation remain open challenges.
+> **TL;DR** — OmniEcho combines a dedicated FOA spatial encoder with vision and language for spatial QA and sound-guided navigation. It achieves **28.5%** overall Audio & Vision QA accuracy (**+10.0 percentage points** over Qwen3-Omni-30B-A3B) and **47.5%** on Cognitive Map, the highest score in the [bundled leaderboard](docs/assets/leaderboard-data.json). Fine-grained localization and distance estimation remain open challenges.
 
 ---
 
@@ -455,4 +468,3 @@ OmniEcho is built on top of [Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni), 
 
 The **OmniEcho** data and code is released for **non-commercial research use** under
 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
-
